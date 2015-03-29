@@ -1,0 +1,22 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="cueb.edu.cueb_overpeople.view.fragment.MyDoubt">
+
+    <ListView
+        android:id="@+id/my_doubt_listView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:divider="@null" />
+
+    <!--<Button-->
+        <!--android:id="@+id/my_doubt_button"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_below="@+id/my_doubt_listView"-->
+        <!--android:background="@drawable/experience_item_button_selector"-->
+        <!--android:text="提问" />-->
+
+
+</RelativeLayout>

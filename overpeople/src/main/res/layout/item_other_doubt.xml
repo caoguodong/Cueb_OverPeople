@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:cardCornerRadius="8dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/item_other_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:textColor="#87000000"
+            android:text="标题标题标题标题标题标题标题"
+            android:textSize="45px" />
+
+        <TextView
+            android:id="@+id/item_other_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/item_other_title"
+            android:layout_marginLeft="6dp"
+            android:layout_marginRight="6dp"
+            android:layout_marginTop="10dp"
+            android:maxLines="2"
+            android:textColor="#87000000"
+            android:text="内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容"
+            android:textSize="30px" />
+
+        <Button
+            android:id="@+id/item_other_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/item_other_content"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/experience_item_button_selector"
+            android:textColor="#87000000"
+            android:textSize="45px"
+            android:text="回答" />
+
+    </RelativeLayout>
+</android.support.v7.widget.CardView>

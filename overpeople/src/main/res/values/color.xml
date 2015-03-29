@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="back">#000</color>
+    <color name="item_exprience_button_normal">#17cccccc</color>
+    <color name="item_experience_button_press">#34000000</color>
+</resources>

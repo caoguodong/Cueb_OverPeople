@@ -1,0 +1,71 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/bottom_actionbar"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_alignParentBottom="true"
+        android:background="#8ccc"
+        android:paddingBottom="5dp"
+        android:paddingTop="5dp">
+
+        <LinearLayout
+            style="@style/main_bottom_actionbar">
+
+            <CheckedTextView
+                android:id="@+id/main_button_experience_share"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/main_experience_button_selector"
+                android:scaleType="center" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/main_bottom_actionbar">
+
+            <CheckedTextView
+                android:id="@+id/main_button_answer_question"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/main_doubt_button_selector"
+                android:scaleType="center" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/main_bottom_actionbar">
+
+            <CheckedTextView
+                android:id="@+id/main_button_reprinted_share"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/main_repriented_button_selector"
+                android:scaleType="center" />
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/main_bottom_actionbar">
+
+            <CheckedTextView
+                android:id="@+id/main_button_profile"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/main_profile_button_selector"
+                android:scaleType="center" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/bottom_actionbar"
+        android:layout_marginBottom="10dp" />
+
+</RelativeLayout>

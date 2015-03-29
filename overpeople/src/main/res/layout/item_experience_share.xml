@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/item_experience_share_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="标题标题标题标题标题标题"
+        android:textSize="45px" />
+
+    <TextView
+        android:id="@+id/item_experience_share_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/item_experience_share_title"
+        android:layout_marginLeft="6dp"
+        android:layout_marginRight="6dp"
+        android:layout_marginTop="10dp"
+        android:maxLines="2"
+        android:text="学院专栏 列出不同的学院(过来人可在每个学院下分享自己的经历【并将自己的经历标记为 综合 出国 考研 或就业分享】此处学生可通过检索  学院、综合 出国 考研 或就业来找到自己想要获得的信息 )"
+        android:textSize="30px" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/item_experience_share_content"
+        android:layout_marginTop="7dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/experience_item_button_selector"
+            android:text="点赞"
+            android:textSize="37px" />
+
+        <TextView
+            android:layout_width="1px"
+            android:layout_height="match_parent"
+            android:background="#cccccc" />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/experience_item_button_selector"
+            android:text="评论"
+            android:textSize="37px" />
+
+    </LinearLayout>
+
+</RelativeLayout>
